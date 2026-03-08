@@ -102,16 +102,16 @@ kotlin {
         mavenPublishing{
             coordinates(
                 groupId = "io.github.dev778g-me",
-                artifactId = "phosphoricon-compose",
-                version = "1.0.2"
+                artifactId = "sargamicon-compose",
+                version = "1.0.0"
             )
 
             // configure p
             pom {
-                name.set("phosphoricon-compose")
-                description.set("phosphor icon library for compose multiplatform")
+                name.set("sargamicon-compose")
+                description.set("sargam icon library for compose multiplatform")
                 inceptionYear.set("2026")
-                url.set("https://github.com/dev778g-me/PhosphorIcon-compose")
+                url.set("https://github.com/dev778g-me/SargamIcons_compose")
 
                 developers {
                     developer {
@@ -129,7 +129,7 @@ kotlin {
                 }
 
                 scm {
-                    url.set("https://github.com/dev778g-me/PhosphorIcon-compose")
+                    url.set("https://github.com/dev778g-me/SargamIcons_compose")
                 }
             }
             publishToMavenCentral(automaticRelease = false)
