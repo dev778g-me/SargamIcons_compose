@@ -2,7 +2,7 @@
 
 A **Compose Multiplatform library of Sargam Icons** for Jetpack Compose.
 
-**Sargam IconCompose** brings the Sargam icon pack to **Jetpack Compose and Compose Multiplatform** using optimized `ImageVector`s.
+**Sargam IconCompose** brings the Sargam icon pack to **Jetpack Compose and Compose Multiplatform** using optimized `ImageVectors`.
 
 The library provides a clean and simple API designed to feel natural for Compose developers.
 
