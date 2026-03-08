@@ -1,0 +1,165 @@
+package icons.duotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import icons.Sargam
+
+val Sargam.Duotone.SiPhonePaused: ImageVector
+    get() {
+        if (_SiPhonePaused != null) {
+            return _SiPhonePaused!!
+        }
+        _SiPhonePaused = ImageVector.Builder(
+            name = "Duotone.SiPhonePaused",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Black),
+                fillAlpha = 0.16f
+            ) {
+                moveToRelative(7.18f, 10.27f)
+                lineToRelative(6.504f, 6.46f)
+                curveToRelative(0.697f, -0.807f, 5.11f, -5.538f, 7.316f, 0.924f)
+                curveToRelative(0f, 0f, -0.232f, 3.346f, -4.994f, 3.346f)
+                curveToRelative(-3.367f, 0f, -6.851f, -4.038f, -9.29f, -6.346f)
+                curveTo(4.626f, 12.692f, 3f, 10.154f, 3f, 7.846f)
+                curveTo(3f, 3.116f, 6.252f, 3f, 6.252f, 3f)
+                curveToRelative(7.432f, 2.538f, 0.929f, 7.27f, 0.929f, 7.27f)
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7.18f, 10.27f)
+                lineToRelative(-0.44f, -0.607f)
+                lineToRelative(-0.713f, 0.518f)
+                lineToRelative(0.625f, 0.62f)
+                close()
+                moveTo(13.684f, 16.73f)
+                lineTo(13.155f, 17.263f)
+                lineTo(13.726f, 17.83f)
+                lineTo(14.252f, 17.22f)
+                close()
+                moveTo(21f, 17.654f)
+                lineTo(21.748f, 17.706f)
+                arcToRelative(0.8f, 0.8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.038f, -0.294f)
+                close()
+                moveTo(6.716f, 14.654f)
+                lineTo(7.232f, 14.109f)
+                lineTo(7.229f, 14.107f)
+                close()
+                moveTo(6.252f, 3f)
+                lineToRelative(0.242f, -0.71f)
+                lineToRelative(-0.13f, -0.044f)
+                lineToRelative(-0.139f, 0.004f)
+                close()
+                moveTo(19.25f, 9f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.5f, 0f)
+                close()
+                moveTo(20.75f, 3f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.5f, 0f)
+                close()
+                moveTo(15.25f, 9f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.5f, 0f)
+                close()
+                moveTo(16.75f, 3f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.5f, 0f)
+                close()
+                moveTo(6.652f, 10.801f)
+                lineToRelative(6.503f, 6.462f)
+                lineToRelative(1.058f, -1.064f)
+                lineToRelative(-6.504f, -6.462f)
+                close()
+                moveTo(14.252f, 17.221f)
+                arcToRelative(9f, 9f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.04f, -1.02f)
+                curveToRelative(0.511f, -0.427f, 1.112f, -0.825f, 1.715f, -1.021f)
+                curveToRelative(0.586f, -0.19f, 1.125f, -0.178f, 1.624f, 0.129f)
+                curveToRelative(0.526f, 0.324f, 1.136f, 1.054f, 1.66f, 2.587f)
+                lineToRelative(1.419f, -0.485f)
+                curveToRelative(-0.58f, -1.697f, -1.35f, -2.799f, -2.293f, -3.38f)
+                curveToRelative(-0.97f, -0.598f, -1.992f, -0.564f, -2.873f, -0.278f)
+                curveToRelative(-0.862f, 0.28f, -1.633f, 0.812f, -2.214f, 1.297f)
+                curveToRelative(-0.588f, 0.49f, -1.023f, 0.97f, -1.214f, 1.19f)
+                close()
+                moveTo(21f, 17.654f)
+                arcToRelative(54f, 54f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.748f, -0.053f)
+                verticalLineToRelative(-0.007f)
+                verticalLineToRelative(0.01f)
+                lineToRelative(-0.01f, 0.067f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.07f, 0.286f)
+                arcToRelative(2.8f, 2.8f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.474f, 0.908f)
+                curveToRelative(-0.493f, 0.631f, -1.51f, 1.385f, -3.692f, 1.385f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(2.58f, 0f, 4.06f, -0.92f, 4.874f, -1.962f)
+                curveToRelative(0.394f, -0.505f, 0.61f, -1.01f, 0.726f, -1.392f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.14f, -0.664f)
+                lineToRelative(0.001f, -0.015f)
+                verticalLineToRelative(-0.006f)
+                lineToRelative(0.001f, -0.003f)
+                verticalLineToRelative(-0.001f)
+                close()
+                moveTo(16.006f, 20.25f)
+                curveToRelative(-1.407f, 0f, -2.944f, -0.858f, -4.52f, -2.14f)
+                curveToRelative(-1.57f, -1.276f, -2.985f, -2.8f, -4.254f, -4f)
+                lineTo(6.2f, 15.198f)
+                curveToRelative(1.17f, 1.106f, 2.715f, 2.755f, 4.339f, 4.075f)
+                curveToRelative(1.617f, 1.315f, 3.506f, 2.476f, 5.467f, 2.476f)
+                close()
+                moveTo(7.23f, 14.107f)
+                curveTo(5.191f, 12.194f, 3.75f, 9.842f, 3.75f, 7.847f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(0f, 2.619f, 1.81f, 5.343f, 3.953f, 7.354f)
+                close()
+                moveTo(3.75f, 7.847f)
+                curveToRelative(0f, -2.174f, 0.734f, -3.147f, 1.33f, -3.602f)
+                curveToRelative(0.316f, -0.24f, 0.63f, -0.365f, 0.864f, -0.43f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.342f, -0.066f)
+                lineTo(6.28f, 3.749f)
+                curveToRelative(-0.001f, 0f, -0.002f, 0f, -0.028f, -0.749f)
+                lineToRelative(-0.028f, -0.75f)
+                lineTo(6.22f, 2.25f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.068f, 0.005f)
+                lineToRelative(-0.144f, 0.016f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.465f, 0.098f)
+                arcToRelative(4.1f, 4.1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.372f, 0.684f)
+                curveTo(3.14f, 3.838f, 2.25f, 5.288f, 2.25f, 7.846f)
+                close()
+                moveTo(6.01f, 3.71f)
+                curveToRelative(1.783f, 0.609f, 2.56f, 1.296f, 2.863f, 1.855f)
+                curveToRelative(0.284f, 0.522f, 0.237f, 1.087f, -0.05f, 1.706f)
+                curveToRelative(-0.293f, 0.63f, -0.8f, 1.227f, -1.267f, 1.683f)
+                arcToRelative(9f, 9f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.816f, 0.708f)
+                lineToRelative(-0.001f, 0.001f)
+                lineToRelative(0.442f, 0.606f)
+                curveToRelative(0.44f, 0.607f, 0.441f, 0.607f, 0.441f, 0.606f)
+                horizontalLineToRelative(0.001f)
+                lineToRelative(0.002f, -0.002f)
+                lineToRelative(0.005f, -0.003f)
+                lineToRelative(0.018f, -0.014f)
+                arcToRelative(6f, 6f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.274f, -0.216f)
+                curveToRelative(0.176f, -0.145f, 0.418f, -0.354f, 0.683f, -0.614f)
+                curveToRelative(0.521f, -0.51f, 1.175f, -1.254f, 1.578f, -2.123f)
+                curveToRelative(0.41f, -0.882f, 0.595f, -1.976f, 0.008f, -3.055f)
+                curveTo(9.624f, 3.807f, 8.426f, 2.95f, 6.494f, 2.29f)
+                close()
+                moveTo(20.75f, 9f)
+                lineTo(20.75f, 3f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(6f)
+                close()
+                moveTo(16.75f, 9f)
+                lineTo(16.75f, 3f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(6f)
+                close()
+            }
+        }.build()
+
+        return _SiPhonePaused!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _SiPhonePaused: ImageVector? = null

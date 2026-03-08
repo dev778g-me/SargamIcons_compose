@@ -1,0 +1,85 @@
+package icons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import icons.Sargam
+
+val Sargam.Regular.SiAIChat: ImageVector
+    get() {
+        if (_SiAIChat != null) {
+            return _SiAIChat!!
+        }
+        _SiAIChat = ImageVector.Builder(
+            name = "Regular.SiAIChat",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color.Black),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(19f, 16f)
+                horizontalLineToRelative(-2.525f)
+                arcToRelative(0.99f, 0.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.775f, 0.375f)
+                lineToRelative(-2.925f, 3.65f)
+                curveToRelative(-0.4f, 0.5f, -1.162f, 0.5f, -1.562f, 0f)
+                lineToRelative(-2.925f, -3.65f)
+                arcTo(0.99f, 0.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7.512f, 16f)
+                horizontalLineTo(5f)
+                curveToRelative(-1.662f, 0f, -3f, -1.338f, -3f, -3f)
+                verticalLineTo(6f)
+                curveToRelative(0f, -1.662f, 1.338f, -3f, 3f, -3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.663f, 0f, 3f, 1.338f, 3f, 3f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 1.662f, -1.337f, 3f, -3f, 3f)
+            }
+            path(
+                stroke = SolidColor(Color.Black),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveToRelative(8.43f, 10.284f)
+                lineToRelative(0.376f, -1.508f)
+                curveToRelative(0.05f, -0.202f, 0.338f, -0.202f, 0.388f, 0f)
+                lineToRelative(0.377f, 1.508f)
+                arcToRelative(0.2f, 0.2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.145f, 0.145f)
+                lineToRelative(1.508f, 0.377f)
+                curveToRelative(0.202f, 0.05f, 0.202f, 0.338f, 0f, 0.388f)
+                lineToRelative(-1.508f, 0.377f)
+                arcToRelative(0.2f, 0.2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.145f, 0.145f)
+                lineToRelative(-0.377f, 1.508f)
+                curveToRelative(-0.05f, 0.202f, -0.338f, 0.202f, -0.388f, 0f)
+                lineToRelative(-0.377f, -1.508f)
+                arcToRelative(0.2f, 0.2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.145f, -0.145f)
+                lineToRelative(-1.508f, -0.377f)
+                curveToRelative(-0.202f, -0.05f, -0.202f, -0.338f, 0f, -0.388f)
+                lineToRelative(1.508f, -0.377f)
+                arcToRelative(0.2f, 0.2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.145f, -0.145f)
+                moveTo(15.1f, 7.6f)
+                lineToRelative(0.4f, -1.6f)
+                lineToRelative(0.4f, 1.6f)
+                lineToRelative(1.6f, 0.4f)
+                lineToRelative(-1.6f, 0.4f)
+                lineToRelative(-0.4f, 1.6f)
+                lineToRelative(-0.4f, -1.6f)
+                lineToRelative(-1.6f, -0.4f)
+                close()
+            }
+        }.build()
+
+        return _SiAIChat!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _SiAIChat: ImageVector? = null

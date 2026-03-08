@@ -1,0 +1,74 @@
+package icons.duotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import icons.Sargam
+
+val Sargam.Duotone.SiMoreHorizSquare: ImageVector
+    get() {
+        if (_SiMoreHorizSquare != null) {
+            return _SiMoreHorizSquare!!
+        }
+        _SiMoreHorizSquare = ImageVector.Builder(
+            name = "Duotone.SiMoreHorizSquare",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Black),
+                fillAlpha = 0.16f
+            ) {
+                moveTo(18.6f, 3f)
+                horizontalLineTo(5.4f)
+                arcTo(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 5.4f)
+                verticalLineToRelative(13.2f)
+                arcTo(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.4f, 21f)
+                horizontalLineToRelative(13.2f)
+                arcToRelative(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.4f, -2.4f)
+                verticalLineTo(5.4f)
+                arcTo(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 18.6f, 3f)
+            }
+            path(
+                stroke = SolidColor(Color.Black),
+                strokeLineWidth = 1.5f
+            ) {
+                moveTo(18.6f, 3f)
+                horizontalLineTo(5.4f)
+                arcTo(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 5.4f)
+                verticalLineToRelative(13.2f)
+                arcTo(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.4f, 21f)
+                horizontalLineToRelative(13.2f)
+                arcToRelative(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.4f, -2.4f)
+                verticalLineTo(5.4f)
+                arcTo(2.4f, 2.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 18.6f, 3f)
+                close()
+            }
+            path(
+                stroke = SolidColor(Color.Black),
+                strokeLineWidth = 1.5f
+            ) {
+                moveTo(12f, 13f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, 0f, -2f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                close()
+                moveTo(7f, 13f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, 0f, -2f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                close()
+                moveTo(17f, 13f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, 0f, -2f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                close()
+            }
+        }.build()
+
+        return _SiMoreHorizSquare!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _SiMoreHorizSquare: ImageVector? = null

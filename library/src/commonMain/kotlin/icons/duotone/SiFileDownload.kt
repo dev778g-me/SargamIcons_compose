@@ -1,0 +1,89 @@
+package icons.duotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import icons.Sargam
+
+val Sargam.Duotone.SiFileDownload: ImageVector
+    get() {
+        if (_SiFileDownload != null) {
+            return _SiFileDownload!!
+        }
+        _SiFileDownload = ImageVector.Builder(
+            name = "Duotone.SiFileDownload",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(8.53f, 11.47f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.06f, 1.06f)
+                close()
+                moveTo(12f, 16f)
+                lineToRelative(-0.53f, 0.53f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.06f, 0f)
+                close()
+                moveTo(16.53f, 12.53f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = true, isPositiveArc = false, -1.06f, -1.06f)
+                close()
+                moveTo(12.75f, 4f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.5f, 0f)
+                close()
+                moveTo(19.75f, 17f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.5f, 0f)
+                close()
+                moveTo(5.75f, 17f)
+                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.5f, 0f)
+                close()
+                moveTo(7.47f, 12.53f)
+                lineTo(11.47f, 16.53f)
+                lineTo(12.53f, 15.47f)
+                lineTo(8.53f, 11.47f)
+                close()
+                moveTo(12.53f, 16.53f)
+                lineTo(16.53f, 12.53f)
+                lineTo(15.47f, 11.47f)
+                lineTo(11.47f, 15.47f)
+                close()
+                moveTo(12.75f, 16f)
+                lineTo(12.75f, 4f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(12f)
+                close()
+                moveTo(18.25f, 17f)
+                verticalLineToRelative(0.6f)
+                horizontalLineToRelative(1.5f)
+                lineTo(19.75f, 17f)
+                close()
+                moveTo(18.25f, 17.6f)
+                curveToRelative(0f, 0.916f, -0.734f, 1.65f, -1.65f, 1.65f)
+                verticalLineToRelative(1.5f)
+                arcToRelative(3.144f, 3.144f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.15f, -3.15f)
+                close()
+                moveTo(16.6f, 19.25f)
+                lineTo(7.4f, 19.25f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(9.2f)
+                close()
+                moveTo(7.4f, 19.25f)
+                curveToRelative(-0.916f, 0f, -1.65f, -0.734f, -1.65f, -1.65f)
+                horizontalLineToRelative(-1.5f)
+                arcToRelative(3.144f, 3.144f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.15f, 3.15f)
+                close()
+                moveTo(5.75f, 17.6f)
+                lineTo(5.75f, 17f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(0.6f)
+                close()
+            }
+        }.build()
+
+        return _SiFileDownload!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _SiFileDownload: ImageVector? = null
