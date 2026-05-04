@@ -99,42 +99,42 @@ kotlin {
                 // KMP dependencies declared in commonMain.
             }
         }
-        mavenPublishing{
-            coordinates(
-                groupId = "io.github.dev778g-me",
-                artifactId = "sargamicon-compose",
-                version = "1.0.0"
-            )
-
-            // configure p
-            pom {
-                name.set("sargamicon-compose")
-                description.set("sargam icon library for compose multiplatform")
-                inceptionYear.set("2026")
-                url.set("https://github.com/dev778g-me/SargamIcons_compose")
-
-                developers {
-                    developer {
-                        id.set("dev778g-me")
-                        name.set("dev")
-                        email.set("sanji778g@gmail.com")
-                    }
-                }
-
-                licenses {
-                    license {
-                        name.set("MIT")
-                        url.set("https://opensource.org/licenses/MIT")
-                    }
-                }
-
-                scm {
-                    url.set("https://github.com/dev778g-me/SargamIcons_compose")
-                }
-            }
-            publishToMavenCentral(automaticRelease = false)
-            signAllPublications()
         }
     }
+mavenPublishing{
+    coordinates(
+        groupId = "io.github.dev778g-me",
+        artifactId = "sargamicon-compose",
+        version = "1.0.0"
+    )
+
+    // configure p
+    pom {
+        name.set("sargamicon-compose")
+        description.set("sargam icon library for compose multiplatform")
+        inceptionYear.set("2026")
+        url.set("https://github.com/dev778g-me/SargamIcons_compose")
+
+        developers {
+            developer {
+                id.set("dev778g-me")
+                name.set("dev")
+                email.set("sanji778g@gmail.com")
+            }
+        }
+
+        licenses {
+            license {
+                name.set("MIT")
+                url.set("https://opensource.org/licenses/MIT")
+            }
+        }
+
+        scm {
+            url.set("https://github.com/dev778g-me/SargamIcons_compose")
+        }
+    }
+    publishToMavenCentral(automaticRelease = false)
+    signAllPublications()
 
 }
