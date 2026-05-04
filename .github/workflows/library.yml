@@ -10,6 +10,7 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     env:
+      GRADLE_OPTS: -Dorg.gradle.jvmargs="-Xmx4096m -XX:MaxMetaspaceSize=1024m"
       ORG_GRADLE_PROJECT_mavenCentralUsername : ${{ secrets.MAVEN_USERNAME }}
       ORG_GRADLE_PROJECT_mavenCentralPassword : ${{ secrets.MAVEN_PASSWORD }}
       ORG_GRADLE_PROJECT_signingInMemoryKeyId : ${{ secrets.GPG_KEY_ID }}
